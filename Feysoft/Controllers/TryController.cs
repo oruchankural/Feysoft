@@ -6,12 +6,15 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Feysoft.Controllers
 {
-    public class AnasayfaController : Controller
+    public class TryController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-     
+        public IActionResult Index2()
+        {
+            return View();
+        }
     }
 }
