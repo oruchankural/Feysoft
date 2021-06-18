@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="section-header overflow-hidden  bg-dark text-white" style="height:50px;">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-12 text-center">
+
+                <h4 class="fw-bolder display-4">Referanslar</h4>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-lg bg-gray-200">
+    <div class="container">
+        <div class="col-12 text-center">
+            <h4 class="fw-bolder display-4">Bize Ulaşın</h4>
+        </div>
+        <form method="post">
+            <div class="mb-3">
+                <label for="email">Ad Soyad</label>
+                <input type="text" class="form-control"  name="NameSurname">
+
+            </div>
+            <div class="mb-3">
+                <label for="email">E-posta Adresi</label>
+                <input type="email" class="form-control"  name="EmailAdd" >
+            </div>
+            <div class="mb-3">
+                <label for="email">Konu</label>
+                <input type="text" class="form-control"  name="Subject">
+            </div>
+            <div class="mb-3">
+                <label for="textarea">Mesaj</label>
+                <textarea class="form-control" placeholder="Mesajınızı giriniz ..."  rows="4" name="Message"></textarea>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Haber bültenini takip et</label>
+            </div>
+            <br />
+            <div class="mb-3">
+                <button class="btn btn-outline-primary" type="submit">Gönder</button>
+            </div>
+
+        </form>
+
+    </div>
+</section>
+
+
